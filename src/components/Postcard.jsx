@@ -9,7 +9,7 @@ function PostCard({ $id, title, featuredImage, userId, Authorname }) {
         <img
           src={appwriteService.getFilePreview(featuredImage)}
           alt={title}
-          className="rounded w-[260px] h-[147px] object-contain"
+          className="rounded-xl w-[260px] h-[147px] object-contain"
         />
         <div>{title}</div>
         <div className="text-sm pr-2 self-end">by: {Authorname ? Authorname : "anonymous"}</div>
