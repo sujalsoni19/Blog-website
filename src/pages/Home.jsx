@@ -101,7 +101,7 @@ function Home() {
     );
   } else {
     return (
-      <div className="min-h-105 flex items-center justify-center bg-gray-300">
+      <div className="min-h-105 flex items-center justify-center">
         <div className="flex space-x-2">
           <div className="w-3 h-3 bg-black rounded-full animate-bounce"></div>
           <div className="w-3 h-3 bg-black rounded-full delay-150 animate-bounce"></div>

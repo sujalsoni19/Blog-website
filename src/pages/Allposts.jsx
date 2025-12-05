@@ -20,8 +20,6 @@ function Allposts(){
     return !loading ? (
         <div className="w-full py-8">
             <Container>
-
-                {/* <-- MATCHES Trending: responsive grid 1 / 2 / 3 / 4 */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-items-center">
                   {posts.map((post)=>(
                     <div key={post.$id} className="w-full">
@@ -36,7 +34,7 @@ function Allposts(){
     : (
         <div className="w-full py-8 mt-4">
             <Container>
-                <div className="min-h-105 flex items-center justify-center bg-gray-300">
+                <div className="min-h-105 flex items-center justify-center">
                   <div className="flex space-x-2">
                     <div className="w-3 h-3 bg-black rounded-full animate-bounce"></div>
                     <div className="w-3 h-3 bg-black rounded-full animate-bounce delay-150"></div>
