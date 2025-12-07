@@ -1,4 +1,4 @@
-#  BlogZone
+#  Blogzone
 
 BlogZone is a modern, full-stack blogging platform built with **React**, **Tailwind CSS**, **Redux**, and **Appwrite**.  
 It lets users create, edit, and delete blog posts with a clean UI and a scalable backend.
@@ -7,19 +7,19 @@ It lets users create, edit, and delete blog posts with a clean UI and a scalable
 
 ##  Features
 
--  **Authentication**
+  **Authentication**
   - User signup & login via Appwrite
   - Persistent sessions
--  **Blog Management**
+  **Blog Management**
   - Create, read, update, delete (CRUD) posts
   - Rich text / markdown-ready editor (depending on your implementation)
   - Draft vs Published states (optional)
--  **Home Content**
+  **Home Content**
   - Show posts by current user
   - Show trending posts
--  **UI/UX**
+  **UI/UX**
   - Responsive layout using Tailwind CSS
--  **Backend (BaaS)**
+  **Backend (BaaS)**
   - Appwrite for authentication, database, and file storage
 
 ---
