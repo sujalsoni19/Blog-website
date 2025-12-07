@@ -10,15 +10,18 @@ It lets users create, edit, and delete blog posts with a clean UI and a scalable
   **Authentication**
   - User signup & login via Appwrite
   - Persistent sessions
+   
   **Blog Management**
   - Create, read, update, delete (CRUD) posts
-  - Rich text / markdown-ready editor (depending on your implementation)
-  - Draft vs Published states (optional)
+  - Rich text editor 
+  
   **Home Content**
   - Show posts by current user
   - Show trending posts
+   
   **UI/UX**
   - Responsive layout using Tailwind CSS
+    
   **Backend (BaaS)**
   - Appwrite for authentication, database, and file storage
 
